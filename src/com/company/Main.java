@@ -12,8 +12,21 @@ public class Main {
         System.out.println("x = 6");
         System.out.println("y = 1");
 
-        if(a == x && y + y == a ){
-            System.out.println("a == x && y + y == a");
+        //if(a == x && y + y == a ){
+            //System.out.println("a == x && y + y == a");
+
+
+        if (y + y == a|| a == x) {
+            System.out.println("y + y == a || a == x");
+        }
+
+        if(a != x && y + y == a) {
+            System.out.println("!(a == x) && y + y == a");
+
+         if (a  < b){
+             System.out.println("a < b");
+
+         }
         }
 
     }
